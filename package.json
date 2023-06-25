@@ -6,6 +6,7 @@
   "main": "src/index.jsx",
   "dependencies": {
     "@react-three/fiber": "8.13.0",
+    "i": "^0.3.7",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-scripts": "5.0.1",
@@ -18,7 +19,11 @@
     "eject": "react-scripts eject"
   },
   "browserslist": {
-    "production": [">0.2%", "not dead", "not op_mini all"],
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
     "development": [
       "last 1 chrome version",
       "last 1 firefox version",
