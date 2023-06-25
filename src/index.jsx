@@ -15,11 +15,18 @@ function Box()
 
 }
 
+function App()
+{
+    return (
+        <Canvas camera={{position:[0,0,2]}}>
+        <Box/>
+        </Canvas>
+    )
+}
+
 
 createRoot(document.getElementById("root")).render(
     <StrictMode>
-        <Canvas camera={{position:[0,0,2]}}>
-            <Box/> 
-        </Canvas>
+        <App/>       
     </StrictMode>
 )
